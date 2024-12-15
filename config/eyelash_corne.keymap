@@ -78,7 +78,7 @@
                          &trans  &trans  &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rotate_scroll>;
         };
 
         layer_settings {
