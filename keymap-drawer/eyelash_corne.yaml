@@ -95,7 +95,7 @@ layers:
   - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SETTINGS
   - {t: '$$mdi:transfer$$', type: trans}
   FNNAV:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,7 +141,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SETTINGS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
