@@ -85,7 +85,7 @@
 &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp TILDE
 &trans   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans   &trans  &trans  &none   &trans  &trans     &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp BACKSPACE
-                         &trans  &trans  &kp SPACE                                                             &kp RET    &trans     &trans
+                         &trans  &trans  &kp SPACE                                                             &kp RET    &mo 3      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
@@ -97,7 +97,7 @@
 &trans  &kp F1   &kp F2   &kp F3       &kp F4  &kp F5                                 &mmv MOVE_UP                     &trans  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &trans    &trans
 &trans  &kp F6   &kp F7   &kp F8       &kp F9  &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kt LEFT_ARROW  &mkp MCLK       &kt RIGHT_ARROW  &trans    &trans
 &trans  &kp F11  &kp F12  &bootloader  &trans  &trans   &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans          &kp DOWN_ARROW  &trans           &mkp MB4  &mkp MB5
-                          &trans       &trans  &trans                                                                  &trans  &trans          &trans
+                          &trans       &mo 3   &trans                                                                  &trans  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
