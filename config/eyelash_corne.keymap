@@ -94,10 +94,10 @@
         NUMSYM {
             display-name = "NUMSYM";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                               &mmv MOVE_UP                     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACKET  &kp ASTRK         &kp CARET      &kp GRAVE
-&trans  &kp N6  &kp N7  &kp N8    &kp N9  &kp N0               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp SEMICOLON     &kp HASH       &kp AT
-&trans  &trans  &trans  &none     &trans  &trans     &trans                    &mmv MOVE_DOWN                   &kp DOLLAR            &kp EQUAL              &kp MINUS          &kp SINGLE_QUOTE  &kp BACKSLASH  &kp SLASH
-                        &kp RALT  &trans  &kp SPACE                                                             &kp RET               &mo 3                  &trans
+&kp ESCAPE  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                               &mmv MOVE_UP                     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACKET  &kp ASTRK         &kp CARET      &kp GRAVE
+&trans      &kp N6  &kp N7  &kp N8    &kp N9  &kp N0               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp SEMICOLON     &kp HASH       &kp AT
+&trans      &trans  &trans  &none     &trans  &trans     &trans                    &mmv MOVE_DOWN                   &kp DOLLAR            &kp EQUAL              &kp MINUS          &kp SINGLE_QUOTE  &kp BACKSLASH  &kp SLASH
+                            &kp RALT  &trans  &kp SPACE                                                             &kp RET               &mo 3                  &trans
             >;
 
             sensor-bindings = <&page_scroll DOWN_ARROW UP_ARROW>;

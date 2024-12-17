@@ -49,7 +49,7 @@ layers:
   - FNNAV
   - $$mdi:apple-keyboard-control$$
   NUMSYM:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
