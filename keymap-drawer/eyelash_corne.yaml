@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '&uc(U00E5)'
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -26,8 +26,8 @@ layers:
   - J
   - K
   - L
-  - '&uc(U00F6)'
-  - '&uc(U00E4)'
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-option$$
   - Z
   - X
