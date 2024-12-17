@@ -56,12 +56,12 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - Sft+ &
-  - Sft+Alt+ {
-  - Sft+Alt+ }
-  - Sft+ !
-  - Sft+ "
-  - {t: Sft+ =, s: Sft+ +}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: ']', s: '}'}
+  - '*'
+  - ^
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
@@ -71,12 +71,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - (
+  - )
+  - '}'
+  - {t: ;, s: ':'}
   - '#'
-  - Sft+ (
-  - Sft+ )
-  - {t: '''', s: '"'}
-  - +
-  - {t: Sft+ ;, s: 'Sft+ :'}
+  - '@'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -85,12 +85,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - NUBS
-  - {t: 'Alt+ [', s: 'Alt+ {'}
-  - {t: 'Alt+ ]', s: 'Alt+ }'}
+  - $
+  - {t: '=', s: +}
   - {t: '-', s: _}
-  - Sft+ $$mdi:apple-keyboard-option$$
-  - 'Sft+ :'
+  - {t: '''', s: '"'}
+  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - $$mdi:keyboard-space$$
