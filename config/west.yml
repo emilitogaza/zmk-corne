@@ -25,6 +25,6 @@ manifest:
       revision: main #custom-entry
     - name: zmk-locales #custom-entry
       remote: joelspadin #custom-entry
-      revision: zmk-locales #custom-entry
+      revision: main #custom-entry
   self:
     path: config
