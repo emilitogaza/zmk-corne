@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: m165437 #custom-entry
       url-base: https://github.com/M165437 #custom-entry
+    - name: joelspadin #custom-entry
+      url-base: https://github.com/joelspadin/zmk-locales #custom-entry
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -21,5 +23,8 @@ manifest:
     - name: nice-view-gem #custom-entry
       remote: m165437 #custom-entry
       revision: main #custom-entry
+    - name: zmk-locales #custom-entry
+      remote: joelspadin #custom-entry
+      revision: zmk-locales #custom-entry
   self:
     path: config
