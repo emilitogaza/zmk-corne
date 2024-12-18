@@ -11,7 +11,7 @@ manifest:
     - name: m165437 #custom-entry
       url-base: https://github.com/M165437 #custom-entry
     - name: joelspadin #custom-entry
-      url-base: https://github.com/joelspadin/zmk-locales #custom-entry
+      url-base: https://github.com/joelspadin #custom-entry
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
